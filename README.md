@@ -218,27 +218,47 @@ Instead, customers can be targeted based on:
 
 ---
 
+
 ## 🔄 Project Workflow
 
-‏```text
+```text
+
 Raw Tourism Data
+
         ↓
+
 Data Quality Assessment
+
         ↓
+
 Exploratory Data Analysis
+
         ↓
+
 Correlation & Spending Analysis
+
         ↓
+
 Feature Preparation & Scaling
+
         ↓
+
 K-Means Customer Segmentation
+
         ↓
+
 Regression Model Training
+
         ↓
+
 Model Evaluation & Comparison
+
         ↓
+
 Power BI Dashboard
+
         ↓
+
 Business Insights & Recommendations
 ---
 
