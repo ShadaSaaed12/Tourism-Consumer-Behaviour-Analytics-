@@ -218,7 +218,7 @@ Instead, customers can be targeted based on:
 
 ---
 ## 🔄 Project Workflow
-
+```mermaid
 graph TD
     A[Raw Tourism Data] --> B[Data Quality Assessment]
     B --> C[Exploratory Data Analysis]
@@ -229,6 +229,7 @@ graph TD
     G --> H[Model Evaluation & Comparison]
     H --> I[Power BI Dashboard]
     I --> J[Business Insights & Recommendations]
+```
 ---
 
 ## 🛠️ Technologies Used
