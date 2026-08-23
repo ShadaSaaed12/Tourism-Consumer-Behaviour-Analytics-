@@ -217,49 +217,18 @@ Instead, customers can be targeted based on:
 - Customer segment
 
 ---
-
-
 ## 🔄 Project Workflow
 
-```text
-
-Raw Tourism Data
-
-        ↓
-
-Data Quality Assessment
-
-        ↓
-
-Exploratory Data Analysis
-
-        ↓
-
-Correlation & Spending Analysis
-
-        ↓
-
-Feature Preparation & Scaling
-
-        ↓
-
-K-Means Customer Segmentation
-
-        ↓
-
-Regression Model Training
-
-        ↓
-
-Model Evaluation & Comparison
-
-        ↓
-
-Power BI Dashboard
-
-        ↓
-
-Business Insights & Recommendations
+graph TD
+    A[Raw Tourism Data] --> B[Data Quality Assessment]
+    B --> C[Exploratory Data Analysis]
+    C --> D[Correlation & Spending Analysis]
+    D --> E[Feature Preparation & Scaling]
+    E --> F[K-Means Customer Segmentation]
+    F --> G[Regression Model Training]
+    G --> H[Model Evaluation & Comparison]
+    H --> I[Power BI Dashboard]
+    I --> J[Business Insights & Recommendations]
 ---
 
 ## 🛠️ Technologies Used
